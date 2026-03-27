@@ -9,8 +9,10 @@ Aplicatia are ca scop administrarea si evidenta tranzactiilor de vanzare–cumpa
 Aplicatia permite:
 
 * introducerea unei tranzactii
-* editarea unei tranzactii
-* stergerea unei tranzactii
+* afisarea tranzactiilor realizate intr-o anumita zi
+* determinarea celei mai populare masini
+* afisarea preturilor tranzactiilor pe un interval de timp
+* salvarea si incarcarea tranzactiilor din fisier
 
 ## Date stocate pentru fiecare tranzactie
 
@@ -18,11 +20,11 @@ Pentru fiecare masina tranzactionata se vor inregistra:
 
 * Nume vanzator
 * Nume cumparator
-* Firma masinii
+* Marca masinii
 * Modelul masinii
 * An fabricatie
 * Culoare
-* Optiuni
+* Dotari
 * Data tranzactie
 * Pret
 
@@ -37,6 +39,15 @@ La introducerea unei tranzactii:
 
 Aplicatia va afisa:
 
-* cea mai cautata masina intr-o anumita perioada
-* graficul pretului pentru un model
 * tranzactiile realizate intr-o anumita zi
+* cea mai cautata masina
+* preturile tranzactiilor pe un interval de timp
+
+## Observatii
+
+Aplicatia este realizata folosind programare orientata pe obiecte si utilizeaza:
+
+* clase pentru modelarea entitatilor (Tranzactie, Vehicul, Persoana)
+* enumerari pentru culoare si dotari
+* interfata pentru stocarea datelor
+* persistenta datelor in fisier
