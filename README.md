@@ -28,12 +28,9 @@ Pentru fiecare masina tranzactionata se vor inregistra:
 * Data tranzactie
 * Pret
 
-## Validari
+## Stocare
 
-La introducerea unei tranzactii:
-
-* daca un cumparator achizitioneaza mai multe masini intr-o zi, apare o avertizare
-* daca un vanzator vinde mai multe masini intr-o zi, apare o avertizare
+La introducerea unei tranzactii , va fi stocata in fisierul tranzactii.txt(bin\Debug\net8.0\tranzactii.txt)
 
 ## Rapoarte
 
